@@ -117,7 +117,7 @@ class App extends React.Component {
           </ReactBootstrap.ListGroup>
         </ReactBootstrap.Form.Group>
         </ReactBootstrap.Form>
-        <Actors actors={this.state.selectedActors} className="col-12 col-md-4"/>
+        <Actors actors={this.state.selectedActors} />
       </ReactBootstrap.Container>
     );
   }
