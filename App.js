@@ -17,7 +17,7 @@ class Actors extends React.Component {
   render() {
     // Creating an array of actor cards based on this.props.actors
     let actorCards = this.props.actors.map(actor => (
-      <ReactBootstrap.Col md="4">
+      <ReactBootstrap.Col md="4" sm="6">
         <ReactBootstrap.Card>
           <ReactBootstrap.Card.Img variant="top" src={actor.image} />
           <ReactBootstrap.Card.Body>
