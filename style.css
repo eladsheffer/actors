@@ -2,18 +2,12 @@
 
 .search-box {
   position: relative;
-  width: 70%;
 }
 
 .search-results {
   position: absolute;
   width: 100%;
   z-index: 10;
-}
-
-h1{
-  margin: auto;
-  text-align: center;
 }
 
 .actors{
