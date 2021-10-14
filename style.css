@@ -14,5 +14,8 @@
 .actors{
   width: 70%;
   margin-left: 0;
-  margin-top: 5px;
+}
+
+.actor{
+  margin-top: 10px;
 }
