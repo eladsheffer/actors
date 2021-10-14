@@ -2,6 +2,7 @@
 
 .search-box {
   position: relative;
+  width: 90%;
 }
 
 .search-results {
