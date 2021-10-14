@@ -102,7 +102,7 @@ class App extends React.Component {
     // }
 
     return (
-      <ReactBootstrap.Container >
+      <ReactBootstrap.Container className="actors" >
         <h1>Actors</h1>
         <ReactBootstrap.Form autocomplete="off">
         <ReactBootstrap.Form.Group controlId="searchTextId" className="search-box">
