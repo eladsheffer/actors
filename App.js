@@ -17,7 +17,7 @@ class Actors extends React.Component {
   render() {
     // Creating an array of actor cards based on this.props.actors
     let actorCards = this.props.actors.map(actor => (
-      <ReactBootstrap.Col sm="6" className="actors">
+      <ReactBootstrap.Col sm="6" >
         <ReactBootstrap.Card>
           <ReactBootstrap.Card.Img variant="top" src={actor.image} />
           <ReactBootstrap.Card.Body>
@@ -102,7 +102,7 @@ class App extends React.Component {
     // }
 
     return (
-      <ReactBootstrap.Container>
+      <ReactBootstrap.Container className="actors">
         <h1>Actors</h1>
         <ReactBootstrap.Form autocomplete="off">
         <ReactBootstrap.Form.Group controlId="searchTextId" className="search-box">
